@@ -3,13 +3,6 @@ save_1d/
 save_mel_npy/
 save_mel_pic/
 
-# Trained models
-models/
-
-# Generated outputs
-plots/
-logs/
-
 # Python cache
 __pycache__/
 *.pyc

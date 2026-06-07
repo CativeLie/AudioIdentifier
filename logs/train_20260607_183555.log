@@ -1,0 +1,148 @@
+Logging to: d:\Documents\AI\Project\AudioProject\logs\train_20260607_183555.log
+
+Loading data...
+MLP — Train: 6985, Val: 1747
+CNN — Train: 6985, Val: 1747
+
+MLP params: 4,798,922
+
+============================================================
+Training MLP
+============================================================
+Epoch  1/40 | Train Loss: 2.2700  Acc: 0.1724 | Val Loss: 2.1663  Acc: 0.1786 | 12.3s
+Epoch  2/40 | Train Loss: 2.0887  Acc: 0.2752 | Val Loss: 2.1969  Acc: 0.1998 | 12.6s
+Epoch  3/40 | Train Loss: 1.8312  Acc: 0.4318 | Val Loss: 2.2922  Acc: 0.2106 | 12.2s
+Epoch  4/40 | Train Loss: 1.5483  Acc: 0.5759 | Val Loss: 2.3924  Acc: 0.2284 | 12.2s
+Epoch  5/40 | Train Loss: 1.2670  Acc: 0.6799 | Val Loss: 2.5681  Acc: 0.2101 | 12.1s
+Epoch  6/40 | Train Loss: 1.0357  Acc: 0.7589 | Val Loss: 2.6915  Acc: 0.2158 | 12.1s
+Epoch  7/40 | Train Loss: 0.8333  Acc: 0.8145 | Val Loss: 2.8698  Acc: 0.2324 | 12.1s
+Epoch  8/40 | Train Loss: 0.7491  Acc: 0.8418 | Val Loss: 2.9252  Acc: 0.2278 | 12.1s
+Epoch  9/40 | Train Loss: 0.6342  Acc: 0.8704 | Val Loss: 3.0205  Acc: 0.2416 | 12.2s
+Epoch 10/40 | Train Loss: 0.5511  Acc: 0.8843 | Val Loss: 3.0064  Acc: 0.2301 | 11.9s
+Epoch 11/40 | Train Loss: 0.5314  Acc: 0.8918 | Val Loss: 3.1009  Acc: 0.2278 | 12.1s
+Epoch 12/40 | Train Loss: 0.5158  Acc: 0.8886 | Val Loss: 3.2296  Acc: 0.2404 | 12.0s
+Epoch 13/40 | Train Loss: 0.4528  Acc: 0.9104 | Val Loss: 3.1127  Acc: 0.2404 | 12.6s
+Epoch 14/40 | Train Loss: 0.4210  Acc: 0.9108 | Val Loss: 3.1626  Acc: 0.2404 | 12.5s
+Epoch 15/40 | Train Loss: 0.3963  Acc: 0.9238 | Val Loss: 3.1797  Acc: 0.2381 | 12.5s
+Epoch 16/40 | Train Loss: 0.3546  Acc: 0.9233 | Val Loss: 3.0414  Acc: 0.2438 | 12.5s
+Epoch 17/40 | Train Loss: 0.2833  Acc: 0.9326 | Val Loss: 3.1013  Acc: 0.2507 | 12.6s
+Epoch 18/40 | Train Loss: 0.2748  Acc: 0.9410 | Val Loss: 3.0201  Acc: 0.2444 | 12.6s
+Epoch 19/40 | Train Loss: 0.2534  Acc: 0.9459 | Val Loss: 3.1684  Acc: 0.2570 | 12.5s
+Epoch 20/40 | Train Loss: 0.2539  Acc: 0.9460 | Val Loss: 3.2286  Acc: 0.2541 | 12.4s
+Epoch 21/40 | Train Loss: 0.2270  Acc: 0.9499 | Val Loss: 3.3397  Acc: 0.2479 | 12.5s
+Epoch 22/40 | Train Loss: 0.2214  Acc: 0.9526 | Val Loss: 3.0856  Acc: 0.2553 | 12.7s
+Epoch 23/40 | Train Loss: 0.2147  Acc: 0.9538 | Val Loss: 3.1912  Acc: 0.2541 | 12.7s
+Epoch 24/40 | Train Loss: 0.2234  Acc: 0.9542 | Val Loss: 3.1244  Acc: 0.2513 | 12.6s
+Epoch 25/40 | Train Loss: 0.2213  Acc: 0.9532 | Val Loss: 3.1998  Acc: 0.2541 | 12.5s
+Epoch 26/40 | Train Loss: 0.1921  Acc: 0.9513 | Val Loss: 3.1525  Acc: 0.2524 | 11.7s
+Epoch 27/40 | Train Loss: 0.1898  Acc: 0.9540 | Val Loss: 3.1583  Acc: 0.2501 | 12.2s
+Early stopping (epoch 27)
+MLP best val accuracy: 0.2570
+
+CNN params: 430,602
+
+============================================================
+Training CNN
+============================================================
+Epoch  1/40 | Train Loss: 1.7785  Acc: 0.3525 | Val Loss: 1.4330  Acc: 0.4740 | 65.3s
+Epoch  2/40 | Train Loss: 1.3904  Acc: 0.4991 | Val Loss: 1.3941  Acc: 0.4413 | 65.5s
+Epoch  3/40 | Train Loss: 1.2392  Acc: 0.5762 | Val Loss: 1.1992  Acc: 0.5644 | 65.0s
+Epoch  4/40 | Train Loss: 1.1143  Acc: 0.6251 | Val Loss: 0.8778  Acc: 0.6766 | 65.2s
+Epoch  5/40 | Train Loss: 1.0076  Acc: 0.6660 | Val Loss: 0.8088  Acc: 0.7069 | 65.3s
+Epoch  6/40 | Train Loss: 0.9570  Acc: 0.6893 | Val Loss: 0.9950  Acc: 0.6577 | 65.6s
+Epoch  7/40 | Train Loss: 0.8718  Acc: 0.7271 | Val Loss: 0.5684  Acc: 0.8122 | 65.6s
+Epoch  8/40 | Train Loss: 0.8209  Acc: 0.7446 | Val Loss: 0.9575  Acc: 0.6915 | 65.1s
+Epoch  9/40 | Train Loss: 0.7691  Acc: 0.7592 | Val Loss: 0.6492  Acc: 0.7802 | 64.9s
+Epoch 10/40 | Train Loss: 0.7158  Acc: 0.7810 | Val Loss: 0.6113  Acc: 0.7819 | 65.3s
+Epoch 11/40 | Train Loss: 0.7125  Acc: 0.7861 | Val Loss: 0.6078  Acc: 0.8054 | 65.2s
+Epoch 12/40 | Train Loss: 0.6548  Acc: 0.8052 | Val Loss: 0.7044  Acc: 0.7779 | 65.2s
+Epoch 13/40 | Train Loss: 0.6579  Acc: 0.8056 | Val Loss: 0.6697  Acc: 0.7853 | 65.0s
+Epoch 14/40 | Train Loss: 0.5553  Acc: 0.8325 | Val Loss: 0.5198  Acc: 0.8460 | 65.2s
+Epoch 15/40 | Train Loss: 0.4873  Acc: 0.8533 | Val Loss: 0.4275  Acc: 0.8701 | 65.0s
+Epoch 16/40 | Train Loss: 0.4919  Acc: 0.8553 | Val Loss: 0.3899  Acc: 0.8735 | 64.8s
+Epoch 17/40 | Train Loss: 0.4752  Acc: 0.8617 | Val Loss: 0.3293  Acc: 0.8924 | 65.0s
+Epoch 18/40 | Train Loss: 0.4615  Acc: 0.8624 | Val Loss: 0.3604  Acc: 0.8838 | 64.7s
+Epoch 19/40 | Train Loss: 0.4353  Acc: 0.8673 | Val Loss: 0.3304  Acc: 0.8970 | 64.7s
+Epoch 20/40 | Train Loss: 0.4500  Acc: 0.8659 | Val Loss: 0.4266  Acc: 0.8729 | 64.8s
+Epoch 21/40 | Train Loss: 0.4219  Acc: 0.8783 | Val Loss: 0.3086  Acc: 0.8930 | 64.8s
+Epoch 22/40 | Train Loss: 0.4016  Acc: 0.8802 | Val Loss: 0.3421  Acc: 0.8930 | 64.9s
+Epoch 23/40 | Train Loss: 0.4067  Acc: 0.8806 | Val Loss: 0.2969  Acc: 0.9021 | 64.8s
+Epoch 24/40 | Train Loss: 0.3903  Acc: 0.8860 | Val Loss: 0.3255  Acc: 0.8952 | 64.6s
+Epoch 25/40 | Train Loss: 0.3856  Acc: 0.8870 | Val Loss: 0.2827  Acc: 0.9101 | 64.7s
+Epoch 26/40 | Train Loss: 0.3593  Acc: 0.8979 | Val Loss: 0.3641  Acc: 0.8895 | 65.0s
+Epoch 27/40 | Train Loss: 0.3768  Acc: 0.8876 | Val Loss: 0.4122  Acc: 0.8735 | 64.7s
+Epoch 28/40 | Train Loss: 0.3327  Acc: 0.9015 | Val Loss: 0.4469  Acc: 0.8735 | 65.5s
+Epoch 29/40 | Train Loss: 0.3540  Acc: 0.8982 | Val Loss: 0.4225  Acc: 0.8781 | 64.8s
+Epoch 30/40 | Train Loss: 0.3410  Acc: 0.9021 | Val Loss: 0.2686  Acc: 0.9176 | 64.9s
+Epoch 31/40 | Train Loss: 0.3215  Acc: 0.9065 | Val Loss: 0.2268  Acc: 0.9273 | 64.7s
+Epoch 32/40 | Train Loss: 0.3352  Acc: 0.9009 | Val Loss: 0.2982  Acc: 0.9061 | 64.7s
+Epoch 33/40 | Train Loss: 0.3111  Acc: 0.9059 | Val Loss: 0.2238  Acc: 0.9290 | 65.2s
+Epoch 34/40 | Train Loss: 0.2982  Acc: 0.9134 | Val Loss: 0.3644  Acc: 0.8912 | 65.0s
+Epoch 35/40 | Train Loss: 0.2989  Acc: 0.9185 | Val Loss: 0.2604  Acc: 0.9227 | 65.1s
+Epoch 36/40 | Train Loss: 0.3030  Acc: 0.9184 | Val Loss: 0.3424  Acc: 0.8970 | 65.1s
+Epoch 37/40 | Train Loss: 0.2901  Acc: 0.9154 | Val Loss: 0.2956  Acc: 0.9061 | 65.0s
+Epoch 38/40 | Train Loss: 0.2999  Acc: 0.9160 | Val Loss: 0.2662  Acc: 0.9176 | 65.1s
+Epoch 39/40 | Train Loss: 0.2699  Acc: 0.9215 | Val Loss: 0.2657  Acc: 0.9193 | 65.2s
+Epoch 40/40 | Train Loss: 0.2374  Acc: 0.9337 | Val Loss: 0.2032  Acc: 0.9399 | 64.9s
+CNN best val accuracy: 0.9399
+
+============================================================
+FINAL EVALUATION
+============================================================
+
+MLP -> Accuracy: 0.2570  |  Weighted F1: 0.2611
+CNN -> Accuracy: 0.9399  |  Weighted F1: 0.9399
+
+--- MLP Classification Report ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.54      0.39      0.45       200
+        car_horn       0.30      0.19      0.23        86
+children_playing       0.14      0.22      0.17       200
+        dog_bark       0.20      0.48      0.28       200
+        drilling       0.21      0.18      0.20       200
+   engine_idling       0.67      0.25      0.36       200
+        gun_shot       0.61      0.36      0.45        75
+      jackhammer       0.30      0.17      0.22       200
+           siren       0.20      0.27      0.23       186
+    street_music       0.16      0.09      0.11       200
+
+        accuracy                           0.26      1747
+       macro avg       0.33      0.26      0.27      1747
+    weighted avg       0.32      0.26      0.26      1747
+
+
+--- CNN Classification Report ---
+                  precision    recall  f1-score   support
+
+ air_conditioner       0.97      0.98      0.98       200
+        car_horn       0.94      0.92      0.93        86
+children_playing       0.91      0.94      0.92       200
+        dog_bark       0.94      0.91      0.93       200
+        drilling       0.90      0.97      0.94       200
+   engine_idling       0.99      0.92      0.95       200
+        gun_shot       0.97      0.97      0.97        75
+      jackhammer       0.93      0.93      0.93       200
+           siren       0.92      0.97      0.95       186
+    street_music       0.95      0.91      0.93       200
+
+        accuracy                           0.94      1747
+       macro avg       0.94      0.94      0.94      1747
+    weighted avg       0.94      0.94      0.94      1747
+
+Saved: plots/training_comparison.png
+Saved: plots/MLP_confusion.png
+Saved: plots/CNN_confusion.png
+
+============================================================
+COMPARISON SUMMARY
+============================================================
+Metric               MLP          CNN         
+----------------------------------------------
+Val Accuracy         0.2570       0.9399      
+Weighted F1          0.2611       0.9399      
+Best Val Acc         0.2570       0.9399      
+
+--- Analysis ---
+CNN outperforms MLP by 68.29%.
+Done! Models saved in 'models/', plots saved in 'plots/'.
