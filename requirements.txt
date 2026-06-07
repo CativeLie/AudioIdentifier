@@ -1,0 +1,8 @@
+torch>=2.0
+numpy
+scipy
+librosa
+matplotlib
+scikit-learn
+gradio
+tqdm
